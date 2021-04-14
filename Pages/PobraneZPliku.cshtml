@@ -1,0 +1,10 @@
+﻿@page
+@model WebApplication17.Pages.PobraneZPlikuModel
+@{
+}
+<div class="card-columns">
+    @foreach (var product in Model.Products)
+    {
+        <h2>@product.Title</h2>
+    }
+</div>
